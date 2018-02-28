@@ -12,12 +12,12 @@ sudo apt-get install pocketsphinx
 ```
 
 You can also compile directly from the 
-[releases][https://cmusphinx.github.io/wiki/download/], or from the source
-code from [github][https://github.com/cmusphinx] or 
-[sourceforge][https://sourceforge.net/p/cmusphinx/code/HEAD/tree/].
+[releases](https://cmusphinx.github.io/wiki/download/), or from the source
+code from [github](https://github.com/cmusphinx) or 
+[sourceforge](https://sourceforge.net/p/cmusphinx/code/HEAD/tree/).
 
 The installation steps are explained in the official 
-[CMU Sphinx tutorials][https://cmusphinx.github.io/wiki/tutorialpocketsphinx/].
+[CMU Sphinx tutorials](https://cmusphinx.github.io/wiki/tutorialpocketsphinx/).
 
 The test scripts are tested for Python 3.5.2, and in order for them to run,
 pocketsphinx and SpeechRecognition modules are needed. You can install them by:
