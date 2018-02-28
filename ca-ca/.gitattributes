@@ -1,1 +1,6 @@
 language-model.lm.bin filter=lfs diff=lfs merge=lfs -text
+acoustic-model/mdef filter=lfs diff=lfs merge=lfs -text
+acoustic-model/transition_matrices filter=lfs diff=lfs merge=lfs -text
+acoustic-model/mixture_weights filter=lfs diff=lfs merge=lfs -text
+acoustic-model/means filter=lfs diff=lfs merge=lfs -text
+acoustic-model/variances filter=lfs diff=lfs merge=lfs -text
