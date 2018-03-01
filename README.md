@@ -66,6 +66,6 @@ $ cd ca-ca-0.1
 $ sphinxtrain run
 ```
 
-The tar archive is currently encrypted. In the process you will be prompted for the pass key.
+The tar archive is currently encrypted. In the process, you will be prompted for the pass key by the `setup_corpus.sh`. For the encryption `gpg` version 1.4.20 is used.
 
 The configuration file might need to be modified for the local machine, for example for the number of cores which needs to be used. For details consult the [CMUSphinx tutorials](https://cmusphinx.github.io/wiki/tutorialam/#setting-up-the-training-scripts).
