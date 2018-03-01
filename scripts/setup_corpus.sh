@@ -9,15 +9,13 @@ MODEL="ca-ca-0.1"
 
 # download encrypted tar file
 wget https://transfer.sh/ZPZ0C/$MODEL.gpg
-# check download
+#TODO check download
 
 # extract tar file
 gpg --decrypt < $MODEL.gpg | tar xzf -
-# check directory
+#TODO check directory
 
 # get local absolute path of the script
-#SOURCE="${BASH_SOURCE[0]}"
-#DIR="$( cd -P "$( dirname "$SOURCE" )" && pwd )"
 DIR="$(pwd)"
 
 # get the path of the sphinxtrain bin and lib
