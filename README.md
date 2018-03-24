@@ -14,6 +14,8 @@ You can also compile directly from the [releases](https://cmusphinx.github.io/wi
 
 The test scripts are tested for Python 3.5.2, and in order for them to run, `pocketsphinx` and `SpeechRecognition` modules are needed. You can install them by:
 ```
+sudo apt-get install swig
+sudo apt-get install libpulse-dev
 pip3 install -r requirements.txt
 ```
 
@@ -39,7 +41,7 @@ ca-ca
 
 In order to test the models, simply execute:
 ```
-$ python script/decode_from_file.py
+$ python scripts/decode_from_file.py
 la seva abraçada havia estat una batalla el clímax una victòria
 ```
 
