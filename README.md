@@ -3,6 +3,23 @@ The repository of acoustic and language models, and the tools to download raw da
 
 The models are trained with *sphinxtrain 5prealpha*.
 
+## git clone
+
+Once you have complete the standard `git clone` you also need `git-lfs`.
+
+The first time you need to:
+
+```
+sudo apt-get install git-lfs
+git lfs install
+```
+
+and then every time:
+
+```
+git lfs pull
+```
+
 ## Requirements
 For basic setup, one needs to install *PocketSphinx*. For Debian systems:
 
