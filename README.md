@@ -3,6 +3,23 @@ The repository of acoustic and language models, and the tools to download raw da
 
 The models are trained with *sphinxtrain 5prealpha*.
 
+## git clone
+
+Once you have complete the standard `git clone` you also need `git-lfs`.
+
+The first time you need to:
+
+```
+sudo apt-get install git-lfs
+git lfs install
+```
+
+and then every time:
+
+```
+git lfs pull
+```
+
 ## Requirements
 For basic setup, one needs to install *PocketSphinx*. For Debian systems:
 
@@ -14,6 +31,8 @@ You can also compile directly from the [releases](https://cmusphinx.github.io/wi
 
 The test scripts are tested for Python 3.5.2, and in order for them to run, `pocketsphinx` and `SpeechRecognition` modules are needed. You can install them by:
 ```
+sudo apt-get install swig
+sudo apt-get install libpulse-dev
 pip3 install -r requirements.txt
 ```
 
@@ -39,7 +58,7 @@ ca-ca
 
 In order to test the models, simply execute:
 ```
-$ python script/decode_from_file.py
+$ python scripts/decode_from_file.py
 la seva abraçada havia estat una batalla el clímax una victòria
 ```
 
