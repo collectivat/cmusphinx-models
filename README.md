@@ -38,7 +38,6 @@ pip3 install -r requirements.txt
 
 ## Catalan
 ### Models
-*_WARNING:_* _The current models are here as placeholders. Do not expect to be able to use them for practical speech recognition tasks._
 
 All the files necessary for pocketsphinx, i.e. the language model, phonetic dictionary and the acoustic models are in `ca-ca` directory. The model files are:
 
