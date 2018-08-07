@@ -5,14 +5,14 @@ NOT_FOUND="ERROR: Could not find the sphinxtrain libraries locally. Make sure sp
 
 After installation rerun the script or replace the PROJECT_PATH and SPHINX_LIB_PATH variables manually in the PROJECT_PATH/etc/sphinx_train.cfg file."
 
-MODEL="ca-ca-0.1"
+MODEL="tv3_0.3"
 
 # download encrypted tar file
-wget https://transfer.sh/ZPZ0C/$MODEL.gpg
+wget http://laklak.eu/share/tv3_0.3.tar.gz
 #TODO check download
 
 # extract tar file
-gpg --decrypt < $MODEL.gpg | tar xzf -
+tar xzf tv3_0.3.tar.gz
 #TODO check directory
 
 # get local absolute path of the script

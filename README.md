@@ -64,6 +64,8 @@ la seva abraçada havia estat una batalla el clímax una victòria
 ### Corpus
 It _will be_ possible to download the audio corpus with the transcriptions and run `sphinxtrain`. For that, the script `setup_corpus.sh` is provided. It downloads a tar.gz archive which has the audio corpus with the necessary directory structure for `sphinxtrain`. Extracts it and writes the configuration file.
 
+> **Note:** The `setup_corpus.sh` is not working yet. However the 240 hour acoustic corpus can be downloaded from [here](http://laklak.eu/share/tv3_0.3.tar.gz).
+
 ```
 $ source scripts/setup_corpus.sh
 --2018-03-01 16:51:23--  https://transfer.sh/ZPZ0C/ca-ca-0.1.gpg
