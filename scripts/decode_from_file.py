@@ -3,7 +3,7 @@ import speech_recognition as sr
 
 file_path = os.path.dirname(os.path.realpath(__file__))
 project_path = os.path.abspath(os.path.join(file_path,'..'))
-test_file_ca = os.path.join(file_path,'test_wavs','test_ca-ca.wav')
+test_file_ca = os.path.join(file_path,'test_wavs','test_ca-es.wav')
 
 def main(language='ca-ca', wav=test_file_ca):
     hmmd, lmd, dictd = get_model_path(language)
