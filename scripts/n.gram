@@ -1,0 +1,13 @@
+#JSGF V1.0;
+
+grammar words;
+
+<word> = la |
+          seva |
+          abraçada |
+          part |
+          havia |
+          estat |
+          batalla;
+
+public <words> = <word>+;
