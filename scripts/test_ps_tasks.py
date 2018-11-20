@@ -71,7 +71,7 @@ def grammar_search(config):
                   s.word)
 
 if __name__ == "__main__":
-    base_path = '/home/baybars/scripts/repositories/cmusphinx-models'
+    base_path = ''
     config = {
         'verbose': False,
         'audio_file': os.path.join(base_path, 'scripts/test_wavs/test_ca-es.wav'),
