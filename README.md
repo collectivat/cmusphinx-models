@@ -1,7 +1,7 @@
 # CMU Sphinx Models
 The repository of acoustic and language models, and the tools to download raw data and train them. Currently only for Catalan.
 
-The models are trained with *sphinxtrain 5prealpha*.
+The models are trained with *sphinxtrain 5prealpha*. You can find further details in our [webpage](https://collectivat.cat/asr) and in our [wiki](https://github.com/collectivat/cmusphinx-models/wiki). If you just want to download the latest acoustic and language models in Catalan you can find them [here](https://cloud.laklak.eu/s/4o2b5MrHckMYCXo).
 
 ## git clone
 
