@@ -62,4 +62,9 @@ la seva abraçada havia estat una batalla el clímax una victòria
 ```
 
 ### Corpus
-The 240 hour acoustic corpus can be downloaded from [here](http://laklak.eu/share/tv3_0.3.tar.gz). The installation scripts for training will be coming soon. 
+The training data consists of 240 hours of Catalan Public television (TV3) and 320 hours of recording from Catalan Parliament ([Parlament de Catalunya](https://www.parlament.cat/)) plenary sessions. The TV3 data was prepared with the support of [Softcatalà](https://www.softcatala.org/), the Parlament data was prepared with the support of the [Culture Department](http://cultura.gencat.cat/) of the Catalan autonomous government.
+
+For further details and the download links of the data, please visit our [resurces for speech technologies](https://collectivat.cat/asr) page.
+
+The current models are prepared and tested with the support of the Culture Department of the Catalan autonomous government.
+<img src="/img/logo_generalitat.png" width="400"/>
