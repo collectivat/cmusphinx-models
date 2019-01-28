@@ -74,7 +74,7 @@ if __name__ == "__main__":
     base_path = ''
     config = {
         'verbose': False,
-        'audio_file': os.path.join(base_path, 'scripts/test_wavs/test_ca-es.wav'),
+        'audio_file': os.path.join(base_path, 'scripts/test_wavs/test_ca-es.raw'),
         'buffer_size': 2048,
         'no_search': False,
         'full_utt': False,
