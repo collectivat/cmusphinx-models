@@ -67,4 +67,5 @@ The training data consists of 240 hours of Catalan Public television (TV3) and 3
 For further details and the download links of the data, please visit our [resurces for speech technologies](https://collectivat.cat/asr) page.
 
 The current models are prepared and tested with the support of the Culture Department of the Catalan autonomous government.
+
 <img src="/img/logo_generalitat.png" width="400"/>
