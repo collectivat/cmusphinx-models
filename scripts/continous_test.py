@@ -11,7 +11,7 @@ BASEDIR = os.path.join(SCRIPTPATH, '..')
 config = Decoder.default_config()
 config.set_string('-hmm', path.join(BASEDIR, 'ca-es/acoustic-model'))
 config.set_string('-lm', path.join(BASEDIR, 'ca-es/language-model.lm.bin'))
-config.set_string('-dict', path.join(BASEDIR, 'ca-es/pronounciation-dictionary.dict'))
+config.set_string('-dict', path.join(BASEDIR, 'ca-es/pronunciation-dictionary.dict'))
 config.set_string('-logfn', '/dev/null')
 decoder = Decoder(config)
 

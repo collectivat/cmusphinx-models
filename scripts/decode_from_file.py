@@ -20,7 +20,7 @@ def get_model_path(language=None):
     language_path = os.path.join(project_path,language)
     hmm_path = os.path.join(language_path,'acoustic-model')
     lm_file = os.path.join(language_path,'language-model.lm.bin')
-    dict_file = os.path.join(language_path,'pronounciation-dictionary.dict')
+    dict_file = os.path.join(language_path,'pronunciation-dictionary.dict')
     for prequisit in [language_path, hmm_path, lm_file, dict_file]:
         if not os.path.exists(prequisit):
             raise IOError('%s does not exits'%prequisit)
